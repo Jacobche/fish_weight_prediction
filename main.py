@@ -41,6 +41,6 @@ if st.button('Make Prediction'):
     print("final pred", np.squeeze(prediction, -1))
     st.write(f"Your fish weight is: {np.squeeze(prediction, -1):.2f}g")
 
-    st.write(f"Thank you {st.session_state.name}! Happy Fishing!.")
+    st.write(f"Thank you {st.session_state.name}! Happy Fishing!")
 
 
